@@ -16,8 +16,24 @@
 	"trivia": "custom.trivia.chaos_guardian",
     "fabricator_drops": [
         {
-            "item": "extrabotany:pandoras_box",
+            "item": "extrabotany:hero_medal",
             "count": 1
+        },
+        {
+            "item": "extrabotany:eins_reward_bag",
+            "count": 32
+        },
+        {
+            "item": "extrabotany:zwei_reward_bag",
+            "count": 16
+        },
+        {
+            "item": "extrabotany:drei_reward_bag",
+            "count": 10
+        },
+        {
+            "item": "extrabotany:vier_reward_bag",
+            "count": 10
         }
     ],
 	"tier_data": [
