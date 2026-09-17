@@ -1,0 +1,24 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "botania:block",
+    "block": "minecraft:deepslate"
+  },
+  "output": {
+    "type": "botania:block",
+    "block": "mekanism:deepslate_uranium_ore"
+  },
+  "weight": 100,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "mana": 17500,
+  "cooldown": 100
+}

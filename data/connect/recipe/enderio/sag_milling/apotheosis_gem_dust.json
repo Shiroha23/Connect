@@ -1,0 +1,26 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "apotheosis:gem"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "id": "apotheosis:gem_dust",
+        "count": 1
+      }
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ]
+}

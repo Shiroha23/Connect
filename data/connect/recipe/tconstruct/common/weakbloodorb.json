@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:diamond"
+  },
+  "cast_consumed": true,
+  "cooling_time": 400,
+  "fluid": {
+    "amount": 2000,
+    "fluid": "bloodmagic:life_essence_fluid"
+  },
+  "result": "bloodmagic:weakbloodorb",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bloodmagic"
+    }
+  ]
+}

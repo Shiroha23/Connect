@@ -1,0 +1,23 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "ae2:smart_cable"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:fluix_smart_cable"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
+}

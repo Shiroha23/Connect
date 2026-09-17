@@ -1,0 +1,53 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "c:ores/osmium"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "c:ores/fluorite"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "minecraft:cobblestone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:cobbled_deepslate"
+      }
+    }
+  ],
+  "weight": 20,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/osmium"
+      }
+    }
+  ],
+  "biome_predicates": [
+    [
+      "minecraft:is_overworld"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "tag": "c:dusts/redstone"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "value": [
+        {
+          "tag": "c:ingots/copper"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "id": "enderio:redstone_alloy_ingot"
+    }
+  ],
+  "energy": 3200,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    }
+  ]
+}

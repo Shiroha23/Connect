@@ -1,0 +1,29 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "tag": "c:ingots/copper"
+    },
+    {
+      "count": 1,
+      "tag": "c:gems/amethyst"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "tconstruct:amethyst_bronze_ingot"
+  }
+}

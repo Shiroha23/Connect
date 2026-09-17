@@ -1,0 +1,38 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "tag": "c:ingots/energetic_alloy"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "value": [
+        {
+          "tag": "c:ender_pearls"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "id": "enderio:vibrant_alloy_ingot"
+    }
+  ],
+  "energy": 4800,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    }
+  ]
+}

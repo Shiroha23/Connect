@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:entity_melting",
+  "damage": 2,
+  "entity": {
+    "type": "minecraft:player"
+  },
+  "result": {
+    "amount": 20,
+    "fluid": "bloodmagic:life_essence_fluid"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bloodmagic"
+    }
+  ]
+}

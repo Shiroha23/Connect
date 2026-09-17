@@ -1,0 +1,33 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4000,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "item": "tconstruct:cobalt_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "tconstruct:queens_slime_ingot"
+  }
+}

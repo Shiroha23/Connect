@@ -1,0 +1,29 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 6400,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 3,
+      "tag": "c:ingots/copper"
+    },
+    {
+      "count": 1,
+      "tag": "c:ingots/tin"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "id": "thermal:bronze_ingot"
+  }
+}

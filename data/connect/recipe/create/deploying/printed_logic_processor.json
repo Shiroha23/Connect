@@ -1,0 +1,27 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "ae2:logic_processor_press"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:printed_logic_processor"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "keep_held_item": true
+}

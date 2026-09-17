@@ -3,4 +3,6 @@
 
 目前为多个模组添加了联动配方，以及一些配方的补充。
 
+支持 Minecraft 1.21.1 / NeoForge。
+
 [MC百科](https://www.mcmod.cn/class/19634.html)

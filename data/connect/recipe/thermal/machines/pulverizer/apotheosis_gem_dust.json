@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "apotheosis:gem"
+  },
+  "result": [
+    {
+      "count": 1,
+      "id": "apotheosis:gem_dust"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thermal"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ]
+}

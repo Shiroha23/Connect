@@ -1,61 +1,62 @@
 {
-    "entity": "extrabotany:gaia_3rd",
-    "name": "entity.extrabotany.gaia_3rd",
-    "name_color": "#920000",
-    "gui_scale": 1,
-    "gui_x_offset": 0,
-    "gui_y_offset": 0,
-    "gui_z_offset": 0,
-    "sim_cost": 3175,
-    "input": {
-        "item": "hostilenetworks:prediction_matrix"
+  "entity": "extrabotany:gaia_3rd",
+  "name_color": "#920000",
+  "sim_cost": 3175,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:end_prediction"
+  },
+  "trivia": "custom.trivia.chaos_guardian",
+  "fabricator_drops": [
+    {
+      "count": 1,
+      "id": "extrabotany:hero_medal"
     },
-    "base_drop": {
-        "item": "hostilenetworks:end_prediction"
+    {
+      "count": 32,
+      "id": "extrabotany:eins_reward_bag"
     },
-	"trivia": "custom.trivia.chaos_guardian",
-    "fabricator_drops": [
-        {
-            "item": "extrabotany:hero_medal",
-            "count": 1
-        },
-        {
-            "item": "extrabotany:eins_reward_bag",
-            "count": 32
-        },
-        {
-            "item": "extrabotany:zwei_reward_bag",
-            "count": 16
-        },
-        {
-            "item": "extrabotany:drei_reward_bag",
-            "count": 10
-        },
-        {
-            "item": "extrabotany:vier_reward_bag",
-            "count": 10
-        }
-    ],
-	"tier_data": [
-		128,
-        1024,
-        4096,
-        16384
-    ],
-    "data_per_kill": [
-        128,
-        256,
-        1024,
-        2048
-    ],
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "hostilenetworks"
-        },
-        {
-            "type": "forge:mod_loaded",
-            "modid": "extrabotany"
-        }
-    ]
+    {
+      "count": 16,
+      "id": "extrabotany:zwei_reward_bag"
+    },
+    {
+      "count": 10,
+      "id": "extrabotany:drei_reward_bag"
+    },
+    {
+      "count": 10,
+      "id": "extrabotany:vier_reward_bag"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hostilenetworks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extrabotany"
+    }
+  ],
+  "display": {
+    "z_offset": 0,
+    "x_offset": 0,
+    "scale": 1,
+    "y_offset": 0
+  },
+  "required_data": {
+    "basic": 128,
+    "advanced": 1024,
+    "superior": 4096,
+    "self_aware": 16384
+  },
+  "data_gained": {
+    "faulty": 128,
+    "basic": 256,
+    "advanced": 1024,
+    "superior": 2048
+  }
 }
